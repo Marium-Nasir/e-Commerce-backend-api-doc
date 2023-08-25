@@ -1,6 +1,7 @@
 import React,{useState} from 'react';
 
 const NavList = ({btnVal,sectionId}) => {
+  // eslint-disable-next-line
   const [activeSection, setActiveSection] = useState();
 
 const scrollToSection = (sectionId) => {

@@ -3,6 +3,7 @@ import AuthSection from './AuthSection';
 import data from './Data';
 
 const Section = () => {
+  // eslint-disable-next-line
   const [dataVal,setDataVal] = useState(data)
   console.log(dataVal);
   return (
